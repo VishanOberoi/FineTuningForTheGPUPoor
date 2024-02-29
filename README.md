@@ -2,6 +2,8 @@
 
 Welcome to FineTuningForTheGPUPoor, a comprehensive guide designed to empower you with the knowledge to fine-tune open-source large language models (LLMs) using the free T4 GPU available on Colab. This project is a testament to the ingenuity in the AI community, demonstrating that resource constraints should not be a barrier to innovation.
 
+![Llama image](https://venturebeat.com/wp-content/uploads/2023/07/nuneybits_vector_art_of_a_llama_programming_8c825672-172b-4e69-a6f1-b7c9e8bf5294.png?w=1200&strip=all)
+
 ## Introduction
 
 This project is for anyone interested in optimizing language models without the need for expensive GPU resources. You'll learn how to effectively fine-tune models to achieve high-quality output suitable for conversational AI applications.
@@ -10,7 +12,8 @@ This project is for anyone interested in optimizing language models without the 
 
 To get started, you will need the following:
 - Hugging Face Account with Authentication Token
-- Permission to access the Llama Model (a gated model)
+- Permission to access the Llama Model (a gated model). Fill the form [here](https://llama.meta.com/llama-downloads/)
+(You should get a mail within about half an hour)
 - A dataset for your model to learn from (or you can create one - process mentioned [here](Data_Prep.ipynb)
 - Ngrok Account with Authentication Token (if you want to see a frontend)
 
@@ -29,10 +32,10 @@ To get started, you will need the following:
 
 ## Features
 
-- **Model Fine-tuning:** Step-by-step guidance on fine-tuning language models using QLoRA and PEFT.
 - **Dataset Creation:** Instructions on how to create a dataset for your model to learn from.
+- **Model Fine-tuning:** Step-by-step guidance on fine-tuning language models using QLoRA and PEFT.
 - **Conversational AI:** Techniques for integrating conversational memory into your models.
-- **Deployment:** Methods to deploy your model with a front-end interface using Chainlit and Ngrok.
+- **Deployment:** Methods to deploy your model with a front-end interface using Gradio or Chainlit and Ngrok.
 
 ## Model Availability
 
@@ -40,7 +43,7 @@ The fine-tuned models are available on Hugging Face (links to be added).
 
 ## Model Card
 
-Our fine-tuned model, `vishanoberoi/Llama-2-7b-chat-hf-finedtuned-to-GGUF`, is optimized for conversational AI, providing high-quality, contextually relevant responses for company-specific data.
+Our fine-tuned model, `vishanoberoi/Llama-2-7b-chat-hf-finedtuned-to-GGUF`, is optimized for conversational AI, providing high-quality, contextually relevant responses for company-specific data. Check the model, and the code to run it directly [here]().
 
 ### Developed by:
 Vishan Oberoi and Dev Chandan
@@ -55,13 +58,14 @@ MIT
 - [LLaMA Paper](https://arxiv.org/abs/2302.13971)
 - [QLORA Paper](https://arxiv.org/abs/2305.14314)
 - [llama.cpp Documentation](https://github.com/ggerganov/llama.cpp)
+- [Chainlit Documentation](https://docs.chainlit.io/get-started/overview)
+- [Langchain Documentation](https://python.langchain.com/docs/get_started/introduction)
+
 
 ## Conclusion
 
 By the end of this project, you'll have the skills to fine-tune any language model, create a dataset, integrate conversational capabilities, and deploy your model with an interactive front-end. We're excited to see the solutions you develop with these tools and techniques.
 
 ---
-
-*Note: Remember to add the specific links to your Hugging Face models where indicated.*
 
 *For a deeper dive into the code and step-by-step instructions, refer to the notebooks included in the GitHub repository and the comprehensive master notebook that serves as a pipeline for the entire process.*
