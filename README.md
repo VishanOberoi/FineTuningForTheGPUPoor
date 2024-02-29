@@ -41,7 +41,7 @@ To get started, you will need the following:
 
 ## Model Availability
 
-The fine-tuned models are available on Hugging Face (links to be added).
+The fine-tuned models are available on [Hugging Face](https://huggingface.co/vishanoberoi/Llama-2-7b-chat-hf-finedtuned-to-GGUF).
 
 ## Model Card
 
