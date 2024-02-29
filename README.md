@@ -1,4 +1,4 @@
-# FineTuningForTheGPUPoor: A Guide to Optimizing Language Models
+# Fine Tuning For The GPU Poor: A Guide to Optimizing Language Models
 
 Welcome to FineTuningForTheGPUPoor, a comprehensive guide designed to empower you with the knowledge to fine-tune open-source large language models (LLMs) using the free T4 GPU available on Colab. This project is a testament to the ingenuity in the AI community, demonstrating that resource constraints should not be a barrier to innovation.
 
