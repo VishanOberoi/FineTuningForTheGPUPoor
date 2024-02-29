@@ -2,7 +2,9 @@
 
 Welcome to FineTuningForTheGPUPoor, a comprehensive guide designed to empower you with the knowledge to fine-tune open-source large language models (LLMs) using the free T4 GPU available on Colab. This project is a testament to the ingenuity in the AI community, demonstrating that resource constraints should not be a barrier to innovation.
 
-![Llama image](https://venturebeat.com/wp-content/uploads/2023/07/nuneybits_vector_art_of_a_llama_programming_8c825672-172b-4e69-a6f1-b7c9e8bf5294.png?w=1200&strip=all)
+<p align='center'>
+  <img src='https://venturebeat.com/wp-content/uploads/2023/07/nuneybits_vector_art_of_a_llama_programming_8c825672-172b-4e69-a6f1-b7c9e8bf5294.png?w=1200&strip=all'>
+</p>
 
 ## Introduction
 
